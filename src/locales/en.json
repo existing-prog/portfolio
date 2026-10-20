@@ -1,0 +1,187 @@
+{
+  "header": {
+    "projects": "PROJECTS",
+    "about": "ABOUT",
+    "skills": "SKILLS",
+    "contact": "CONTACT",
+    "contactButton": "CONTACT ME",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "location": "FRANCE — WEB DEVELOPMENT",
+    "role": "JUNIOR WEB DEVELOPER",
+    "titleFirst": "DIGITAL",
+    "titleSecond": "EXPERIENCES",
+    "description": "I design and develop modern web experiences, combining polished interfaces, functionality and performance.",
+    "explore": "EXPLORE MY PROJECTS",
+    "scroll": "DISCOVER MORE",
+    "introduction": "INTRODUCTION"
+  },
+  "projects": {
+    "section": "SELECTED WORK",
+    "titleFirst": "SELECTED",
+    "titleSecond": "WORK",
+    "introduction": "A selection of projects completed during my training, from building user interfaces to developing APIs.",
+    "imageAlt": "Preview of the {{title}} project",
+    "categories": {
+      "frontend": "FRONT-END DEVELOPMENT",
+      "backend": "BACK-END DEVELOPMENT",
+      "javascript": "JAVASCRIPT DEVELOPMENT",
+      "optimization": "WEB OPTIMIZATION"
+    },
+    "items": {
+      "kasa": "Real estate rental application built with React, featuring dynamic navigation and responsive layouts.",
+      "grimoire": "Secure REST API for managing a book catalog, user accounts and ratings.",
+      "sophie": "Interactive architect portfolio featuring a dynamic gallery, category filters and an administration interface.",
+      "nina": "Performance, SEO and accessibility optimization of a professional photographer's portfolio."
+    },
+    "booki": {
+      "label": "05 / OTHER PROJECT",
+      "description": "Responsive integration of an accommodation booking website from design mockups using HTML and CSS."
+    },
+    "footer": "FROM CONCEPT TO CREATION."
+  },
+  "about": {
+    "section": "ABOUT ME",
+    "sectionSubtitle": "THE PERSON BEHIND THE CODE",
+    "titleFirst": "BEHIND",
+    "titleSecond": "THE CODE",
+    "identity": "IDENTITY / 001",
+    "nameLabel": "NAME",
+    "roleLabel": "ROLE",
+    "role": "WEB DEVELOPER",
+    "locationLabel": "LOCATION",
+    "location": "FRANCE",
+    "label": "A LITTLE ABOUT ME",
+    "headlineFirst": "BUILDING THINGS",
+    "headlineSecond": "FOR THE",
+    "headlineAccent": "WEB.",
+    "descriptionFirst": "Passionate about technology and computing, I chose web development to turn this interest into a career. Through my training, I have worked on practical projects ranging from interactive user interfaces to API development.",
+    "descriptionSecond": "I particularly enjoy front-end development, where I can combine logic, creativity and attention to detail. Curious and eager to improve, I am now looking to join a team, continue developing my skills and contribute to professional projects.",
+    "focusLabel": "FOCUS",
+    "focus": "FRONT-END / FULL-STACK",
+    "currentlyLabel": "CURRENTLY",
+    "currently": "OPEN TO OPPORTUNITIES",
+    "connect": "LET'S CONNECT",
+    "footer": "MORE THAN JUST CODE."
+  },
+  "skills": {
+    "section": "TECH STACK",
+    "sectionSubtitle": "TOOLS OF THE TRADE",
+    "titleFirst": "MY",
+    "titleSecond": "ARSENAL",
+    "introduction": "The technologies and tools I use to design and develop web applications.",
+    "categories": {
+      "frontend": {
+        "title": "FRONT-END",
+        "description": "INTERFACES & USER EXPERIENCE"
+      },
+      "backend": {
+        "title": "BACK-END",
+        "description": "SERVERS & DATA"
+      },
+      "tools": {
+        "title": "TOOLS",
+        "description": "WORKFLOW & DEVELOPMENT"
+      },
+      "optimization": {
+        "title": "WEB OPTIMIZATION",
+        "description": "PERFORMANCE & SEO"
+      }
+    },
+    "footer": "ALWAYS LEARNING / ALWAYS BUILDING"
+  },
+  "contact": {
+    "section": "CONTACT",
+    "sectionSubtitle": "HAVE SOMETHING IN MIND?",
+    "availability": "OPEN TO OPPORTUNITIES",
+    "titleFirst": "HAVE A",
+    "titleSecond": "PROJECT?",
+    "titleThird": "LET'S",
+    "titleAccent": "TALK.",
+    "description": "An opportunity, a project, or just want to get in touch? Feel free to contact me.",
+    "button": "GET IN TOUCH",
+    "email": "EMAIL",
+    "github": "GITHUB"
+  },
+  "footer": {
+    "backToTop": "BACK TO TOP",
+    "copyright": "© 2026 LUCAS BERDY",
+    "builtWith": "DESIGNED & BUILT WITH REACT",
+    "location": "FRANCE / 2026"
+  },
+  "projectDetail": {
+    "back": "BACK TO PROJECTS",
+    "overview": "PROJECT OVERVIEW",
+    "technologies": "TECHNOLOGIES",
+    "year": "YEAR",
+    "category": "CATEGORY",
+    "about": "ABOUT THE PROJECT",
+    "challenge": "THE CHALLENGE",
+    "solution": "MY SOLUTION",
+    "github": "VIEW SOURCE CODE",
+    "demo": "LIVE WEBSITE",
+    "next": "NEXT PROJECT",
+    "descriptions": {
+      "kasa": {
+        "intro": "Development of a responsive real estate rental application using React, with dynamic property pages and reusable UI components.",
+        "about": "Kasa is a real estate rental platform developed from design mockups. I built the front-end using React, Vite and SCSS, creating a responsive interface with reusable components. The application displays property listings from JSON data and allows users to explore detailed accommodation pages through dynamic routes.",
+        "challenge": "Transform static design mockups into a functional, responsive React application while maintaining a consistent user experience across desktop, tablet and mobile devices. The project also required implementing dynamic navigation, interactive components and appropriate error handling for invalid routes or nonexistent properties.",
+        "solution": "Built a component-based architecture using React, with React Router for navigation and SCSS for responsive styling. Implemented reusable banners, collapsible sections and an image carousel with navigation controls. Property information is dynamically retrieved from JSON data, and a dedicated 404 page handles unknown routes and invalid property IDs."
+      },
+      "grimoire": {
+        "intro": "Development of a secure REST API for a community-driven book catalog and rating platform.",
+        "about": "Mon Vieux Grimoire is an application that allows users to browse, publish and rate books. I developed the entire back-end using Node.js, Express and MongoDB, handling data management, user authentication and image processing.",
+        "challenge": "Design a reliable and secure API supporting user authentication, book management and ratings, while protecting user data and optimizing image storage.",
+        "solution": "Built a REST API using Express and MongoDB, with JWT authentication, bcrypt password hashing and authorization checks. Images are processed with Multer and Sharp and converted to WebP. A rating system automatically calculates average book scores."
+      },
+      "sophie": {
+        "intro": "Development of dynamic features and an authenticated administration interface for an interior architect's portfolio using JavaScript.",
+        "about": "Sophie Bluel is an interior architect's portfolio website. My role was to make the existing interface interactive using JavaScript, HTML and CSS. I connected the gallery to a REST API to dynamically display projects and categories, and implemented an administration interface allowing the architect to manage her work.",
+        "challenge": "Turn a static portfolio into a dynamic application connected to an API, allowing visitors to filter projects by category while providing authenticated users with tools to manage the gallery. The main challenges involved handling asynchronous requests, managing authentication states and implementing a smooth administration experience without relying on a front-end framework.",
+        "solution": "Used the Fetch API to retrieve and display projects dynamically, with category-based filtering. Implemented a login form with token-based authentication, an editing mode and modal interfaces for adding and deleting projects. New projects are submitted using FormData to send images and associated information to the API, while the gallery updates dynamically after modifications."
+      },
+      "nina": {
+        "intro": "Performance, SEO and accessibility optimization of a professional photographer's portfolio website.",
+        "about": "Nina Carducci is a photography portfolio website. My role was to analyze its performance and technical structure, then improve loading speed, accessibility and search engine visibility while preserving the original visual identity and functionality.",
+        "challenge": "Identify and resolve performance, accessibility and SEO issues in an existing website without compromising its design or user experience. Key priorities included reducing image sizes and improving HTML structure to support navigation and search engine indexing.",
+        "solution": "Converted and optimized images to WebP, improved semantic HTML, alternative text and SEO metadata. Lighthouse audits measured the improvements: performance increased from 56 to 94, accessibility from 68 to 100, and SEO from 73 to 100."
+      }
+    },
+    "gallery": {
+      "section": "PROJECT PREVIEW",
+      "title": "THE PROJECT IN PICTURES",
+      "home": "HOME PAGE",
+      "housing": "PROPERTY DETAILS",
+      "mobile": "MOBILE VERSION",
+      "homeDescription": "An interface displaying the available rental properties.",
+      "housingDescription": "A detailed property page featuring a carousel, information, and interactive components.",
+      "mobileDescription": "An interface adapted to mobile screens."
+    },
+    "sophieGallery": {
+      "home": "01 / HOMEPAGE",
+      "homeDescription": "Architect presentation and dynamically generated project gallery.",
+      "filters": "02 / FILTERING",
+      "filtersDescription": "Dynamic project filtering by category using JavaScript.",
+      "admin": "03 / ADMINISTRATION",
+      "adminDescription": "Administration interface for adding new projects to the gallery."
+    },
+    "grimoireGallery": {
+      "home": "01 / LIBRARY",
+      "homeDescription": "Book catalog displaying information and average ratings.",
+      "detail": "02 / BOOK DETAILS",
+      "detailDescription": "Book information, rating system and highest-rated books.",
+      "add": "03 / ADD A BOOK",
+      "addDescription": "Book creation form with image upload."
+    },
+    "ninaGallery": {
+      "home": "01 / HOMEPAGE",
+      "homeDescription": "Photography portfolio homepage after optimization.",
+      "gallery": "02 / PHOTO GALLERY",
+      "galleryDescription": "Photography gallery with category-based image filtering.",
+      "lighthouse": "03 / LIGHTHOUSE RESULTS",
+      "lighthouseDescription": "Performance improved from 56 to 94, accessibility from 68 to 100 and SEO from 73 to 100."
+    }
+  }
+}

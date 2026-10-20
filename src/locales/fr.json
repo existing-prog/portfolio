@@ -1,0 +1,187 @@
+{
+  "header": {
+    "projects": "PROJETS",
+    "about": "À PROPOS",
+    "skills": "COMPÉTENCES",
+    "contact": "CONTACT",
+    "contactButton": "ME CONTACTER",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "location": "FRANCE — DÉVELOPPEMENT WEB",
+    "role": "DÉVELOPPEUR WEB JUNIOR",
+    "titleFirst": "DIGITAL",
+    "titleSecond": "EXPERIENCES",
+    "description": "Je conçois et développe des expériences web modernes, en associant interfaces soignées, fonctionnalités et performance.",
+    "explore": "EXPLORER MES PROJETS",
+    "scroll": "DÉCOUVRIR LA SUITE",
+    "introduction": "INTRODUCTION"
+  },
+  "projects": {
+    "section": "PROJETS SÉLECTIONNÉS",
+    "titleFirst": "SELECTED",
+    "titleSecond": "WORK",
+    "introduction": "Une sélection de projets réalisés durant ma formation. Du développement d'interfaces à la création d'API.",
+    "imageAlt": "Aperçu du projet {{title}}",
+    "categories": {
+      "frontend": "DÉVELOPPEMENT FRONT-END",
+      "backend": "DÉVELOPPEMENT BACK-END",
+      "javascript": "DÉVELOPPEMENT JAVASCRIPT",
+      "optimization": "OPTIMISATION WEB"
+    },
+    "items": {
+      "kasa": "Application de location immobilière développée avec React, intégrant une navigation dynamique et une interface responsive.",
+      "grimoire": "API REST sécurisée permettant de gérer un catalogue de livres, les comptes utilisateurs et les évaluations.",
+      "sophie": "Portfolio d'architecte interactif avec galerie dynamique, filtres par catégorie et interface d'administration.",
+      "nina": "Optimisation des performances, du référencement et de l'accessibilité d'un portfolio de photographe."
+    },
+    "booki": {
+      "label": "05 / AUTRE PROJET",
+      "description": "Intégration responsive d'un site de réservation d'hébergements à partir de maquettes, avec HTML et CSS."
+    },
+    "footer": "DU CONCEPT À LA RÉALISATION."
+  },
+  "about": {
+    "section": "À PROPOS",
+    "sectionSubtitle": "LA PERSONNE DERRIÈRE LE CODE",
+    "titleFirst": "BEHIND",
+    "titleSecond": "THE CODE",
+    "identity": "IDENTITÉ / 001",
+    "nameLabel": "NOM",
+    "roleLabel": "RÔLE",
+    "role": "DÉVELOPPEUR WEB",
+    "locationLabel": "LOCALISATION",
+    "location": "FRANCE",
+    "label": "QUELQUES MOTS SUR MOI",
+    "headlineFirst": "BUILDING THINGS",
+    "headlineSecond": "FOR THE",
+    "headlineAccent": "WEB.",
+    "descriptionFirst": "Passionné par l'informatique et les nouvelles technologies, je me suis orienté vers le développement web pour transformer cet intérêt en métier. Ma formation m'a permis de travailler sur des projets concrets, de la création d'interfaces interactives au développement d'API.",
+    "descriptionSecond": "J'apprécie particulièrement le développement front-end, où je peux associer logique, créativité et attention aux détails. Curieux et motivé à progresser, je souhaite aujourd'hui rejoindre une équipe, continuer à développer mes compétences et contribuer à des projets professionnels.",
+    "focusLabel": "SPÉCIALITÉ",
+    "focus": "FRONT-END / FULL-STACK",
+    "currentlyLabel": "ACTUELLEMENT",
+    "currently": "OUVERT AUX OPPORTUNITÉS",
+    "connect": "PRENONS CONTACT",
+    "footer": "BIEN PLUS QUE DU CODE."
+  },
+  "skills": {
+    "section": "COMPÉTENCES TECHNIQUES",
+    "sectionSubtitle": "MES OUTILS DE DÉVELOPPEMENT",
+    "titleFirst": "MY",
+    "titleSecond": "ARSENAL",
+    "introduction": "Les technologies et outils que j'utilise pour concevoir et développer des applications web.",
+    "categories": {
+      "frontend": {
+        "title": "FRONT-END",
+        "description": "INTERFACES ET EXPÉRIENCE UTILISATEUR"
+      },
+      "backend": {
+        "title": "BACK-END",
+        "description": "SERVEURS ET DONNÉES"
+      },
+      "tools": {
+        "title": "OUTILS",
+        "description": "ENVIRONNEMENT ET DÉVELOPPEMENT"
+      },
+      "optimization": {
+        "title": "OPTIMISATION WEB",
+        "description": "PERFORMANCE ET RÉFÉRENCEMENT"
+      }
+    },
+    "footer": "TOUJOURS APPRENDRE / TOUJOURS CRÉER"
+  },
+  "contact": {
+    "section": "CONTACT",
+    "sectionSubtitle": "UNE IDÉE EN TÊTE ?",
+    "availability": "OUVERT AUX OPPORTUNITÉS",
+    "titleFirst": "HAVE A",
+    "titleSecond": "PROJECT?",
+    "titleThird": "LET'S",
+    "titleAccent": "TALK.",
+    "description": "Une opportunité, un projet ou simplement envie d'échanger ? N'hésitez pas à me contacter.",
+    "button": "ME CONTACTER",
+    "email": "EMAIL",
+    "github": "GITHUB"
+  },
+  "footer": {
+    "backToTop": "RETOUR EN HAUT",
+    "copyright": "© 2026 LUCAS BERDY",
+    "builtWith": "CONÇU ET DÉVELOPPÉ AVEC REACT",
+    "location": "FRANCE / 2026"
+  },
+  "projectDetail": {
+    "back": "RETOUR AUX PROJETS",
+    "overview": "PRÉSENTATION DU PROJET",
+    "technologies": "TECHNOLOGIES",
+    "year": "ANNÉE",
+    "category": "CATÉGORIE",
+    "about": "À PROPOS DU PROJET",
+    "challenge": "LE DÉFI",
+    "solution": "MA SOLUTION",
+    "github": "VOIR LE CODE",
+    "demo": "VOIR LE SITE",
+    "next": "PROJET SUIVANT",
+    "descriptions": {
+      "kasa": {
+        "intro": "Développement d'une application de location immobilière responsive avec React, intégrant des fiches logements dynamiques et des composants réutilisables.",
+        "about": "Kasa est une plateforme de location immobilière développée à partir de maquettes graphiques. J'ai réalisé l'interface front-end avec React, Vite et SCSS, en créant des composants réutilisables et une mise en page adaptée aux différents écrans. L'application affiche les logements à partir de données JSON et permet de consulter leurs fiches détaillées grâce à un système de routes dynamiques.",
+        "challenge": "Transformer des maquettes statiques en une application React fonctionnelle et responsive, tout en garantissant une expérience cohérente sur ordinateur, tablette et mobile. Le projet nécessitait également de gérer la navigation dynamique, les interactions utilisateur et les erreurs liées aux routes inexistantes ou aux identifiants de logements invalides.",
+        "solution": "Mise en place d'une architecture à composants avec React, utilisation de React Router pour la navigation et de SCSS pour le responsive. Développement de bannières, de sections dépliables et d'un carrousel d'images avec contrôles de navigation. Les informations des logements sont chargées dynamiquement depuis un fichier JSON, avec une page 404 dédiée aux routes et identifiants invalides."
+      },
+      "grimoire": {
+        "intro": "Développement d'une API REST sécurisée pour une plateforme communautaire de référencement et de notation de livres.",
+        "about": "Mon Vieux Grimoire est une application permettant aux utilisateurs de consulter, publier et noter des livres. J'ai développé l'intégralité du back-end avec Node.js, Express et MongoDB, en assurant la gestion des données, des utilisateurs et des images.",
+        "challenge": "Concevoir une API fiable et sécurisée, permettant l'authentification des utilisateurs, la gestion des livres et des notes, tout en protégeant les données et en optimisant le stockage des images.",
+        "solution": "Mise en place d'une architecture REST avec Express et MongoDB, authentification par JWT, hachage des mots de passe avec bcrypt et contrôle des autorisations. Les images sont traitées avec Multer et Sharp pour être converties au format WebP. Un système de notation calcule automatiquement la moyenne des évaluations."
+      },
+      "sophie": {
+        "intro": "Développement de fonctionnalités dynamiques et d'une interface d'administration sécurisée pour le portfolio d'une architecte d'intérieur avec JavaScript.",
+        "about": "Sophie Bluel est le portfolio d'une architecte d'intérieur. Mon rôle a été de rendre l'interface existante interactive avec JavaScript, HTML et CSS. J'ai connecté la galerie à une API REST pour afficher dynamiquement les projets et leurs catégories, puis développé une interface d'administration permettant à l'architecte de gérer ses réalisations.",
+        "challenge": "Transformer un portfolio statique en une application dynamique connectée à une API, permettant aux visiteurs de filtrer les réalisations par catégorie et aux utilisateurs authentifiés de gérer la galerie. Les principaux défis concernaient les requêtes asynchrones, la gestion de l'authentification et la création d'une interface d'administration fluide sans framework front-end.",
+        "solution": "Utilisation de l'API Fetch pour récupérer et afficher les projets dynamiquement, avec un filtrage par catégorie. Développement d'un formulaire de connexion avec authentification par token, d'un mode édition et de fenêtres modales pour ajouter et supprimer des réalisations. L'ajout de projets utilise FormData pour transmettre les images et leurs informations à l'API, puis la galerie est actualisée après chaque modification."
+      },
+      "nina": {
+        "intro": "Optimisation des performances, du référencement naturel et de l'accessibilité d'un portfolio de photographe professionnel.",
+        "about": "Nina Carducci est un site vitrine dédié à la photographie. Mon intervention a consisté à analyser ses performances et sa structure technique, puis à améliorer sa rapidité de chargement, son accessibilité et sa visibilité sur les moteurs de recherche, tout en préservant son identité visuelle et ses fonctionnalités.",
+        "challenge": "Identifier et corriger les problèmes affectant les performances, l'accessibilité et le référencement d'un site existant, sans compromettre son apparence ni l'expérience utilisateur. L'enjeu était notamment de réduire le poids des images et d'améliorer la structure HTML pour faciliter la navigation et l'indexation.",
+        "solution": "Conversion et optimisation des images au format WebP, amélioration des balises HTML sémantiques, des textes alternatifs et des métadonnées SEO. Des audits Lighthouse ont permis de mesurer les progrès : le score de performance est passé de 56 à 94, l'accessibilité de 68 à 100 et le SEO de 73 à 100."
+      }
+    },
+    "gallery": {
+      "section": "APERÇU DU PROJET",
+      "title": "LE PROJET EN IMAGES",
+      "home": "PAGE D'ACCUEIL",
+      "housing": "FICHE LOGEMENT",
+      "mobile": "VERSION MOBILE",
+      "homeDescription": "Une interface présentant les différents logements disponibles.",
+      "housingDescription": "Une fiche détaillée avec carrousel, informations et composants interactifs.",
+      "mobileDescription": "Une interface adaptée aux écrans mobiles."
+    },
+    "sophieGallery": {
+      "home": "01 / PAGE D'ACCUEIL",
+      "homeDescription": "Présentation de l'architecte et galerie dynamique de ses réalisations.",
+      "filters": "02 / FILTRAGE",
+      "filtersDescription": "Filtrage dynamique des réalisations par catégorie avec JavaScript.",
+      "admin": "03 / ADMINISTRATION",
+      "adminDescription": "Interface d'administration permettant d'ajouter de nouvelles réalisations."
+    },
+    "grimoireGallery": {
+      "home": "01 / BIBLIOTHÈQUE",
+      "homeDescription": "Catalogue des livres avec leurs informations et leurs notes moyennes.",
+      "detail": "02 / FICHE LIVRE",
+      "detailDescription": "Consultation des détails, notation des ouvrages et classement des mieux notés.",
+      "add": "03 / AJOUT D'UN LIVRE",
+      "addDescription": "Formulaire de création d'un livre avec téléchargement de son image."
+    },
+    "ninaGallery": {
+      "home": "01 / PAGE D'ACCUEIL",
+      "homeDescription": "Page d'accueil du portfolio photographique après optimisation.",
+      "gallery": "02 / GALERIE PHOTO",
+      "galleryDescription": "Galerie photographique avec filtrage des images par catégorie.",
+      "lighthouse": "03 / RÉSULTATS LIGHTHOUSE",
+      "lighthouseDescription": "Performance de 56 à 94, accessibilité de 68 à 100 et SEO de 73 à 100 après optimisation."
+    }
+  }
+}

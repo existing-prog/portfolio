@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0a0a0a;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+
+section[id] {
+  scroll-margin-top: 20px;
+}

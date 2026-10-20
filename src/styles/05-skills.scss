@@ -1,0 +1,235 @@
+@use './variables' as *;
+
+// SKILLS
+
+.skills {
+  padding: 110px 5% 70px;
+  border-top: 1px solid $border;
+
+  &__top,
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: $muted;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+
+  &__heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 85px 0 75px;
+
+    h2 {
+      margin: 0;
+      color: $text;
+      font-size: clamp(65px, 9vw, 150px);
+      font-weight: 900;
+      letter-spacing: -0.08em;
+      line-height: 0.9;
+
+      > span:first-of-type {
+        color: transparent;
+        -webkit-text-stroke: 1px $text;
+      }
+    }
+
+    p {
+      max-width: 300px;
+      margin: 0 0 10px;
+      color: $muted;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+  }
+
+  &__period {
+    color: $accent;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  &__footer {
+    margin-top: 100px;
+    padding-top: 25px;
+    border-top: 1px solid $border;
+  }
+}
+
+// SKILL CARDS
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 480px;
+  padding: 30px;
+  border: 1px solid $border;
+  background: #111111;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    border-color: $accent;
+    transform: translateY(-6px);
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $muted;
+
+    span {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+
+    svg {
+      color: $accent;
+    }
+  }
+
+  &__heading {
+    margin: 65px 0 35px;
+
+    h3 {
+      margin: 0 0 12px;
+      color: $text;
+      font-size: clamp(25px, 2.5vw, 42px);
+      font-weight: 900;
+      letter-spacing: -0.05em;
+    }
+
+    p {
+      margin: 0;
+      color: $muted;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 17px 0;
+    border-top: 1px solid $border;
+    transition: padding-left 0.2s ease;
+
+    &:last-child {
+      border-bottom: 1px solid $border;
+    }
+
+    &:hover {
+      padding-left: 8px;
+
+      .skill-card__name{
+        color: $accent;
+      }
+    }
+  }
+
+  &__index {
+    color: #666;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  &__name {
+    flex: 1;
+    color: $text;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: auto;
+    color: #666;
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+}
+
+// RESPONSIVE SKILLS
+
+@media (max-width: 1000px) {
+  .skills {
+    &__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .skills {
+    padding-top: 80px;
+
+    &__heading {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+      margin: 55px 0;
+
+      h2 {
+        font-size: clamp(55px, 13vw, 90px);
+      }
+    }
+
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(3,  minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    &__footer {
+      margin-top: 70px;
+    }
+  }
+
+  .skill-card {
+    min-height: 0;
+    padding: 25px;
+
+    &__heading {
+      margin-top: 45px;
+    }
+
+    &__list {
+      margin-bottom: 45px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-card,
+  .skill-card__item {
+    transition: none;
+  }
+
+  .skill-card:hover {
+    transform: none;
+  }
+}
+
+

@@ -1,0 +1,121 @@
+@use './variables' as *;
+
+// CONTACT
+
+.contact {
+  padding: 110px 5% 80px;
+  border-top: 1px solid $border;
+  background: #111111;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: $muted;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+
+  &__content {
+    padding: 110px 0 100px;
+  }
+
+  &__availability {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 35px;
+    color: $text;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  &__dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: $accent;
+    box-shadow: 0 0 18px rgba(224, 68, 54, 0.4);
+  }
+
+  h2 {
+    margin: 0;
+    color: $text;
+    font-size: clamp(65px, 10vw, 180px);
+    font-weight: 900;
+    letter-spacing: -0.085em;
+    line-height: 0.9;
+
+    > span:first-of-type {
+      color: transparent;
+      -webkit-text-stroke: 1px $text;
+    }
+  }
+
+  &__accent {
+    color: $accent;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 75px;
+
+    p {
+      max-width: 400px;
+      margin: 0;
+      color: $muted;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+  }
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    min-width: 260px;
+    padding: 25px 30px;
+    background: $accent;
+    color: $text;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: background 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+      background: #f05245;
+      transform: translateY(-4px);
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 40px;
+    padding-top: 25px;
+    border-top: 1px solid $border;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: $muted;
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}
+

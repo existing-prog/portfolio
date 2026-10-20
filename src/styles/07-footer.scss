@@ -1,0 +1,140 @@
+@use './variables' as *;
+
+// FOOTER
+
+.footer {
+  padding: 55px 5% 30px;
+  background: $background;
+  border-top: 1px solid $border;
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 65px;
+  }
+
+  &__logo {
+    color: $text;
+    text-decoration: none;
+    font-size: clamp(45px, 8vw, 120px);
+    font-weight: 900;
+    letter-spacing: -0.08em;
+    line-height: 1;
+
+    span {
+      color: $accent;
+    }
+  }
+
+  &__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    color: $muted;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $text;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 25px;
+    border-top: 1px solid $border;
+    color: $muted;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+}
+
+.footer__back {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+// RESPONSIVE CONTACT + FOOTER
+
+@media (max-width: 900px) {
+  .contact {
+    &__content {
+      padding: 90px 0;
+    }
+
+    h2 {
+      font-size: clamp(65px, 10vw, 120px);
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .contact {
+    padding-top: 80px;
+
+    &__top {
+      font-size: 8px;
+    }
+
+    &__content {
+      padding: 90px 0 70px;
+    }
+
+    h2 {
+      font-size: clamp(52px, 12vw, 85px);
+    }
+
+    &__bottom {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 35px;
+      margin-top: 50px;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__links {
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+  }
+
+  .footer {
+    &__main {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 35px;
+      padding-bottom: 50px;
+    }
+
+    &__bottom {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact__button {
+    transition: none;
+  }
+
+  .contact__button:hover {
+    transform: none;
+  }
+}
+

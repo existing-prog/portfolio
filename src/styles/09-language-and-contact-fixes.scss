@@ -1,0 +1,50 @@
+@use './variables' as *;
+
+// LANGUAGE SWITCHER
+
+.header {
+  &__languages {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: $muted;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    button {
+      padding: 5px 0;
+      border: none;
+      background: transparent;
+      color: $muted;
+      font: inherit;
+      cursor: pointer;
+      transition: color 0.2s;
+
+      &:hover,
+      &.active {
+        color: $text;
+      }
+
+      &:focus-visible {
+        outline: 2px solid $accent;
+        outline-offset: 4px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    &__languages {
+      font-size: 10px;
+    }
+  }
+}
+
+
+.contact__bottom p {
+  max-width: 550px;
+}
+
+
