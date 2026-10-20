@@ -43,10 +43,10 @@ const skillCategories = [
     translationKey: 'optimization',
     icon: Gauge,
     skills: [
-      'SEO',
-      'ACCESSIBILITÉ',
-      'PERFORMANCE WEB',
-      'LIGHTHOUSE',
+      'seo',
+      'accessibility',
+      'performance',
+      'lighthouse',
     ],
   }
 ]
@@ -101,7 +101,9 @@ function Skills() {
                     </span>
 
                     <span className="skill-card__name">
-                      {skill}
+                      {category.translationKey === 'optimization'
+                        ? t(`skills.optimizationSkills.${skill}`)
+                        : skill}
                     </span>
                   </div>
                 ))}

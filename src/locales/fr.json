@@ -90,6 +90,12 @@
         "description": "PERFORMANCE ET RÉFÉRENCEMENT"
       }
     },
+    "optimizationSkills": {
+      "seo": "SEO",
+      "accessibility": "ACCESSIBILITÉ",
+      "performance": "PERFORMANCE WEB",
+      "lighthouse": "LIGHTHOUSE"
+    },
     "footer": "TOUJOURS APPRENDRE / TOUJOURS CRÉER"
   },
   "contact": {

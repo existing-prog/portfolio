@@ -90,6 +90,12 @@
         "description": "PERFORMANCE & SEO"
       }
     },
+    "optimizationSkills": {
+      "seo": "SEO",
+      "accessibility": "ACCESSIBILITY",
+      "performance": "WEB PERFORMANCE",
+      "lighthouse": "LIGHTHOUSE"
+    },
     "footer": "ALWAYS LEARNING / ALWAYS BUILDING"
   },
   "contact": {
