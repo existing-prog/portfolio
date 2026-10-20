@@ -15,7 +15,13 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__main">
-        <Link to="/" className="footer__logo">
+        <Link 
+        to="/" 
+        className="footer__logo"
+        onClick={() => {
+          window.scrollTo({ top: 0, behavior: 'smooth' })
+        }}
+        >
           EXISTING<span>.</span>
         </Link>
 

@@ -96,7 +96,13 @@ function Header() {
         <Link
           to="/"
           className="header__logo"
-          onClick={closeMenu}
+          onClick={() => {
+            closeMenu()
+
+            if (window.location.hash === '#/' || window.location.pathname === '/') {
+              window.scrollTo({ top: 0, behavior: 'smooth' })
+            }
+          }}
         >
           EXISTING<span>.</span>
         </Link>
